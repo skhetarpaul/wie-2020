@@ -1,8 +1,9 @@
-.App {
-  text-align: center;
+.App{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -34,5 +35,94 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}  */
+
+.animation-moving{
+  background: linear-gradient(to left,#8942a8, #ba382f);
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.box-type{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box-type li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255,255,255,0.2);
+  animation: animate2 20s linear infinite;
+  bottom: -100px;
+}
+.box-type li:nth-child(1){
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation: animate 20s linear infinite;
+  animation-delay: 0s;
+}
+.box-type li:nth-child(2){
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+.box-type li:nth-child(3){
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 5.5s;
+  animation: animate 20s linear infinite;
+  animation-duration: 11.5s;
+}
+.box-type li:nth-child(4){
+  left: 42%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+  animation: animate 20s linear infinite;
+  animation-duration: 8.5s;
+}
+.box-type li:nth-child(5){
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0s;
+}
+.box-type li:nth-child(6){
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+}
+
+@keyframes animate{
+  from {
+    transform:  translateY(-800px) rotate(0deg);
+    opacity: 1
+  }
+  to {
+    transform: translateY(0px) rotate(360deg);
+  }
+}
+
+@keyframes animate2{
+  from {
+    transform:  translateY(0px) rotate(0deg);
+    opacity: 1
+  }
+  to {
+    transform: translateY(-800px) rotate(-360deg);
   }
 }
