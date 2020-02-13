@@ -1,7 +1,7 @@
-.App{
+/* .App{
   margin: 0px;
   padding: 0px;
-}
+} */
 
 /* .App-logo {
   height: 40vmin;
@@ -37,13 +37,20 @@
     transform: rotate(360deg);
   }
 }  */
+.App{
+  background: linear-gradient(to left,#8942a8, #ba382f);
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */}
 
-.animation-moving{
+
+.animation-moving,.App{
   background: linear-gradient(to left,#8942a8, #ba382f);
   width: 100%;
   height: 100vh;
   /* overflow: hidden; */
 }
+
 
 .box-type{
   position: absolute;
@@ -125,4 +132,99 @@
   to {
     transform: translateY(-800px) rotate(-360deg);
   }
+}
+
+:root {
+  --off-white: #d8d7d7;
+  --primaryColor: #af9a7d;
+  --secondaryColor: red;
+  --mainWhite: rgb(155, 112, 112);
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainButtonText: #f7f7f79c;
+}
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+img{
+  height: 1000px;
+  width:400px;
+  padding-top:0px;
+}
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+  text-decoration: red;
+  
+}
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 1200px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: rgb(161, 43, 43);
+  cursor: pointer;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainButtonText);
+  background: linear-gradient(to left,#8942a8, #ba382f);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--secondaryColor);
+}
+/* navbar ends here */
+
+/* section starts here */
+.section-dark {
+  /* background: #333; */
+  background: linear-gradient(to left,#8942a8, #ba382f);
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
 }
