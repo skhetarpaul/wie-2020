@@ -16,7 +16,8 @@
   }
 }  */
 .App{
-  background: linear-gradient(to left,#8942a8, #ba382f);
+  /* background: linear-gradient(to left,#8942a8, #ba382f); */
+  background: linear-gradient(to left,#6e1959, #f7f7f7);
   width: 105%;
   height: 1000vh;
   /* overflow: hidden; */}
@@ -190,14 +191,67 @@
 /* navbar ends here */
 
 /* section starts here */
-.section-dark {
-  /* background: #333; */
-  background: linear-gradient(to left,#8942a8, #ba382f);
-  color: white;
-}
+
 
 .section-content {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
 }
+
+.wie-hack{
+  font-size: 100px;
+  padding-right: 0px;
+  display: inline-block;
+  font-style: italic;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 120px;
+  padding-right: 10px;
+  
+} 
+.float-wie{
+  float: right;
+  /* padding-right: 90px; */
+  
+}
+.enlarge{
+  font-size: 300px;
+}
+
+/* .img-wie{
+  float: left;
+  display: inline-flexbox;
+  width: 200px;
+  height: 150px;
+} */
+.woman-image{
+  float: left;
+  padding-top: 150px;
+  width: 200px;
+}
+
+.year{
+  font-size: 150px;
+  
+}
+
+.wie-about{
+  /* float: right; */
+  color: pink;
+  font-style: italic;
+  position: relative;
+  padding-left: 30rem;
+}
+
+.text-wie{
+  /* float: right; */
+  word-wrap: break-word;
+  position: relative;
+  font-size: larger;
+}
+
+.empty-space{
+  height: 1000px;
+}
+
