@@ -206,11 +206,14 @@
   font-style: italic;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 120px;
+  padding-right: 10px;
   
 } 
 .float-wie{
   float: right;
-  padding-right: 90px;
+  /* padding-right: 90px; */
+  
 }
 .enlarge{
   font-size: 300px;
@@ -232,3 +235,23 @@
   font-size: 150px;
   
 }
+
+.wie-about{
+  /* float: right; */
+  color: pink;
+  font-style: italic;
+  position: relative;
+  padding-left: 30rem;
+}
+
+.text-wie{
+  /* float: right; */
+  word-wrap: break-word;
+  position: relative;
+  font-size: larger;
+}
+
+.empty-space{
+  height: 1000px;
+}
+
