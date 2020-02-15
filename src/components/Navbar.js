@@ -31,7 +31,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
+              <Link 
                 activeClass="active"
                 to="section2"
                 spy={true}
