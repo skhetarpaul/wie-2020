@@ -8,7 +8,7 @@ import Texter from './components/Texter'
 import Carousel from './components/Carousel'
 import {carouselSlidesData} from './components/Carousel'
 import Services from './components/Services'
-
+import Countdown from './components/CountDown'
 import Footer from './components/Footer';
 
 function App() {
@@ -32,6 +32,12 @@ function App() {
       </div>
 
       <div className = "empty-space"></div>
+      <Countdown 
+        timeTillDate="02 29  2020, 6:00 am" 
+        timeFormat="MM DD YYYY, h:mm a" 
+      />
+      <br/>
+      <br/>
       <Services />
       <Carousel className = "carousel-judges" slides={carouselSlidesData}/>
       
