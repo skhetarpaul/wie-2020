@@ -1,0 +1,65 @@
+.SocialMedia-Icons-Links
+{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.SocialMedia
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.SocialMedia-Icons
+{
+    color: #4B0082;
+
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+
+#Youtube-Icon:hover
+{
+    color: #c4302b;
+}
+
+#Instagram-Icon:hover
+{
+    color: #dd2a7b;
+}
+
+#Facebook-Icon:hover
+{
+    color: #3b5998;
+}
+
+#Email-Icon:hover
+{
+    color: #D44638;
+}
+
+#Twitter-Icon:hover
+{
+    color: #00acee;
+}
+
+#Telephone-Icon:hover
+{
+    color:green
+}
+
+@media (max-width: 600px)
+{
+    .SocialMedia-Icons-Links
+    {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+    
+}

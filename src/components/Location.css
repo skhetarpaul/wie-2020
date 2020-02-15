@@ -1,0 +1,14 @@
+.Location
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Location-Address
+{
+    padding: 1rem;
+}

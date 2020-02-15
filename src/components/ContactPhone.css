@@ -1,0 +1,14 @@
+.ContactPhone
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ContactPhone-Number
+{
+    padding: 1rem;
+}

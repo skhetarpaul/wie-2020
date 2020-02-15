@@ -9,6 +9,8 @@ import Carousel from './components/Carousel'
 import {carouselSlidesData} from './components/Carousel'
 import Services from './components/Services'
 
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className="App">
@@ -33,17 +35,17 @@ function App() {
       <Services />
       <Carousel className = "carousel-judges" slides={carouselSlidesData}/>
       
-        <div className = "animation-moving">
-      
+      <div className = "animation-moving">
+    
 
-      
-         {/* <Section
+    
+        {/* <Section
           title="Section 1"
           subtitle={dummyText}
           dark={true}
           id="section1"
         /> */}
-       
+      
         <ul className = "box-type">
           <li></li>
           <li></li>
@@ -53,6 +55,8 @@ function App() {
           <li></li>
         </ul>
       </div>
+
+      <Footer />
     </div>
   );
 }

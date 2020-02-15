@@ -1,0 +1,30 @@
+.Footer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    color: #4B0082;
+}
+
+.Footer-Upper
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer-Upper-Text, .Footer-Upper-Icons
+{
+    flex : 1;
+}
+
+.Footer-Upper-Icons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-Upper-Text
+{
+    padding: 2rem;
+}
