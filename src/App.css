@@ -254,4 +254,41 @@
 .empty-space{
   height: 1000px;
 }
+@media screen and (max-width: 992px) {
+  .App{
+    background: linear-gradient(to left,#6e1959, #f7f7f7);
+    
+  }
+  .woman-image{
+    width:0;
+    height:0;
+  }
+  .float-wie{
+    display: block;
+    width:100%;
+    padding-top: 30px;
+    
+    /* height: 50vh; */
+  }
+  .wie-hack, .enlarge{
+    font-size: 70px;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .text-wie{
+    overflow: hidden;
+    height: 0px;
+  }
+  .enlarge{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
 
+}
+
+@media screen and (min-width: 1200px) {
+  
+}
