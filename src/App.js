@@ -7,6 +7,7 @@ import woman from '../src/images/wom-p2.webp';
 import Texter from './components/Texter'
 import Carousel from './components/Carousel'
 import {carouselSlidesData} from './components/Carousel'
+import Services from './components/Services'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       </div>
 
       <div className = "empty-space"></div>
+      <Services />
       <Carousel className = "carousel-judges" slides={carouselSlidesData}/>
       
         <div className = "animation-moving">
