@@ -24,7 +24,29 @@
     flex-direction: column;
 }
 
-.Footer-Upper-Text
+.Footer-Upper-Text-para
 {
     padding: 2rem;
+}
+
+
+@media (max-width: 600px)
+{
+    .Footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer-Upper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer-Upper-Text-para
+    {
+        padding: 4rem;
+    }
+    
 }
