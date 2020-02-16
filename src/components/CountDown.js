@@ -45,7 +45,7 @@ class Countdown extends Component {
         
         return (
             <div>
-                <Title title = "Event details to be announced soon!!"/>
+                <Title title = "Event Dates to be out soon!"/>
                 <div className='countdown-wrapper'>
                     {days && (
                         <div className='countdown-item'>

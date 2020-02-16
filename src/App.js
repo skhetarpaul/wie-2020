@@ -14,11 +14,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar />   
       <div className = "woman-image">
         <img src = {woman} />
       </div>
-      <div className = "float-wie"> 
+      <div className = "float-wie" id="section1"> 
         <p className = "wie-hack"> <span className = "enlarge">{` <`}</span><Texter />
           <span className = "enlarge">{` />`}</span>
         </p>
@@ -32,7 +32,7 @@ function App() {
       </div>
 
       <div className = "empty-space"></div>
-      <Countdown 
+      <Countdown id="section2"
         timeTillDate="02 29  2020, 6:00 am" 
         timeFormat="MM DD YYYY, h:mm a" 
       />
