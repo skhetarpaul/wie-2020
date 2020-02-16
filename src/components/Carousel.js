@@ -8,41 +8,47 @@ const carouselContainer = document.querySelector(".carousel-container");
 
 // Data for carousel
 export const carouselSlidesData = [
+  // {
+  //   content:
+  //     "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
+  //   author: "Alfred Pennyworth",
+  //   source: "twitter"
+  // }, {
+  //   content:
+  //     "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
+  //   author: "Ra's Al Ghul",
+  //   source: "Snapchat" 
+  // }, {
+  //   content:
+  //     "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
+  //   author: "Alfred Pennyworth",
+  //   source: "twitter"
+  // }, {
+  //   content:
+  //     "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
+  //   author: "Ra's Al Ghul",
+  //   source: "Snapchat"
+  // }, {
+  //   content:
+  //     "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
+  //   author: "Alfred Pennyworth",
+  //   source: "twitter"
+  // }, {
+  //   content:
+  //     "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
+  //   author: "Ra's Al Ghul",
+  //   source: "Snapchat"
+  // }, {
+  //   content:
+  //     "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
+  //   author: "Alfred Pennyworth",
+  //   source: "twitter"
+  // },
   {
     content:
-      "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-    author: "Alfred Pennyworth",
-    source: "twitter"
-  }, {
-    content:
-      "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
-    author: "Ra's Al Ghul",
-    source: "Snapchat" 
-  }, {
-    content:
-      "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-    author: "Alfred Pennyworth",
-    source: "twitter"
-  }, {
-    content:
-      "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
-    author: "Ra's Al Ghul",
-    source: "Snapchat"
-  }, {
-    content:
-      "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-    author: "Alfred Pennyworth",
-    source: "twitter"
-  }, {
-    content:
-      "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
-    author: "Ra's Al Ghul",
-    source: "Snapchat"
-  }, {
-    content:
-      "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-    author: "Alfred Pennyworth",
-    source: "twitter"
+      "TO BE ANNOUNCED VERY SOON...",
+    author: "",
+    source: ""
   }
 ];
 

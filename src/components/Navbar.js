@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from "../logo.svg";
+import logo from "../images/BVPIEEE.png";
 import './Navbar.css'
 import {FaAlignRight} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
                           offset={-70}
                           duration={500}
                         >
-                          About Us
+                          Details
                         </Link>
                       </li>
                       <li className="nav-item">

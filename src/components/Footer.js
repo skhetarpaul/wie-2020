@@ -15,7 +15,8 @@ class Footer extends Component
             <div className="Footer">
                 <div className="Footer-Upper">
                     <div className="Footer-Upper-Text">
-                        <p> BVPIEEE is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at lectus urna duis convallis convallis. Urna duis convallis convallis tellus id interdum velit laoreet id. Volutpat odio facilisis mauris sit. Id nibh tortor id aliquet lectus proin nibh. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. A diam sollicitudin tempor id. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Egestas diam in arcu cursus euismod quis viverra nibh. Elementum sagittis vitae et leo duis. Quam nulla porttitor massa id neque aliquam. Facilisis magna etiam tempor orci eu lobortis elementum nibh. </p>
+                        <p> BVPIEEE: the student branch of IEEE at Bharati Vidyapeeth's College of Engineering, since its inception aimed at promoting IEEE among students as a common platform to share their technical perspective through interactive sessions. Our endeavor is to harness the boundless youth potential and create a rich pool of technical expertise.
+                        When you join IEEE, you join a community of over 425,000 technology and engineering professionals united by a common desire to continuously learn, interact, collaborate, and innovate. </p>
                     </div>
 
                     <div className="Footer-Upper-Icons">
