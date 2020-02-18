@@ -29,6 +29,7 @@ class Footer extends Component
                 <div className="Footer-Lower">
                     BVPIEEE©2020, All Rights Reserved.
                 </div>
+                <br />
             </div>
         );
     }
